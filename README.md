@@ -10,7 +10,7 @@
 📌 Prezentarea aplicației „ESP32-CAM Viewer cu IP-uri Locale”
 Această aplicație web este o interfață creată pentru a vizualiza fluxul video (stream-ul) generat de un modul ESP32-CAM, atât din rețeaua locală, cât și din exterior (prin un domeniu DDNS, exemplu GO.RO). Pagina este proiectată astfel încât să ofere o navigare ușoară, feedback vizual clar și gestionare robustă a conexiunilor.
 
-🎨 Design și structură vizuală
+# 🎨 Design și structură vizuală
 
 Interfața este simplă și modernă.
 
@@ -38,7 +38,7 @@ mesaje de eroare animate (shake),
 
 culori intuitive: albastru pentru conectare, verde pentru extern, roșu pentru deconectare.
 
-🔌 Ce face aplicația?
+# 🔌 Ce face aplicația?
 Aplicația permite utilizatorului să se conecteze la camera ESP32 în trei moduri:
 
 1. Conectare Locală
@@ -53,7 +53,7 @@ Sunt afișate mai multe IP-uri prestabilite, utile dacă există mai multe camer
 4. Deconectare
 Oprește fluxul video și curăță complet zona video.
 
-⚙️ Cum funcționează tehnic?
+# ⚙️ Cum funcționează tehnic?
 
 Gestionarea fluxului de imagini
 
@@ -79,7 +79,7 @@ conexiunea este anulată,
 
 apare un mesaj roșu animat de eroare.
 
-🛡️ Mecanism de protecție al conexiunilor
+# 🛡️ Mecanism de protecție al conexiunilor
 
 Codul folosește un sistem inteligent bazat pe connectionId:
 
@@ -93,7 +93,7 @@ Astfel se evită situațiile în care o conexiune veche suprascrie o conexiune n
 
 Este o metodă elegantă de a preveni erorile și conflictele între conexiuni rapide consecutive.
 
-🧹 Managementul dezactivării stream-ului
+# 🧹 Managementul dezactivării stream-ului
 
 Funcția disconnect():
 
@@ -105,7 +105,7 @@ golește cadrul video,
 
 actualizează vizual starea la „Deconectat”.
 
-🚨 Gestionarea erorilor
+# 🚨 Gestionarea erorilor
 
 Funcția handleError():
 
@@ -117,11 +117,11 @@ schimbă culoarea statusului în roșu,
 
 folosește o mică animație "shake" pentru a evidenția problema.
 
-🔍 Funcția listei de IP-uri locale
+# 🔍 Funcția listei de IP-uri locale
 
 Codul creează automat butoane pentru fiecare IP local, oferind acces rapid la camere multiple din rețea.
 
-⭐ Concluzie
+# ⭐ Concluzie
 
 Această pagină este o interfață completă și intuitivă pentru controlul și vizualizarea unui ESP32-CAM, oferind:
 
