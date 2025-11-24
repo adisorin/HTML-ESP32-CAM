@@ -43,15 +43,24 @@ Sunt afișate mai multe IP-uri prestabilite, utile dacă există mai multe camer
 Oprește fluxul video și curăță complet zona video.
 
 ⚙️ Cum funcționează tehnic?
+
 Gestionarea fluxului de imagini
+
 Când utilizatorul selectează un IP:
+
 aplicația resetează orice conexiune anterioară;
+
 afișează un spinner animat în locul stream-ului;
+
 încearcă să încarce un obiect <img> cu sursa http://IP/stream.
 
+
 Dacă imaginea se încarcă cu succes:
+
 spinnerul dispare,
+
 stream-ul este afișat în fereastră.
+
 
 Dacă se produce o eroare:
 conexiunea este anulată,
