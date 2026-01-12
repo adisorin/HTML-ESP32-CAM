@@ -276,4 +276,4 @@ This page is a complete and intuitive interface for controlling and viewing an E
 * multiple IP selection
 * proper error management
 
-A practical, elegant, and efficient solution for video surveillance or testing ESP32-CAM modules within a network.
+# A practical, elegant, and efficient solution for video surveillance or testing ESP32-CAM modules within a network.
