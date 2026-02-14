@@ -18,6 +18,8 @@
 
 📌 Prezentarea aplicației „ESP32-CAM Viewer cu IP-uri Locale”
 Această aplicație web este o interfață creată pentru a vizualiza fluxul video (stream-ul) generat de un modul ESP32-CAM, atât din rețeaua locală, cât și din exterior (prin un domeniu DDNS, exemplu GO.RO). Pagina este proiectată astfel încât să ofere o navigare ușoară, feedback vizual clar și gestionare robustă a conexiunilor.
+# Nou:
+În ESP32-CAM AI Viewer se poate face captură video și downloada automat direct pe PC sau telefon dacă AI este ACTIV.
 
 # 🎨 Design și structură vizuală
 
