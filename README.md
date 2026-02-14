@@ -12,7 +12,8 @@
 # ESP32-CAM AI Viewer
 
 <img width="763" height="881" alt="image" src="https://github.com/user-attachments/assets/1f69c288-d750-4158-8109-6c93f8c7dd69" />
-![om_2026-02-14T09-21-39-177Z](https://github.com/user-attachments/assets/3bd340e8-4212-47a7-9d7b-ac74fb4f232c)
+<img width="703" height="519" alt="image" src="https://github.com/user-attachments/assets/ab533132-f76e-4187-8ea9-f14a0a93b431" />
+
 
 
 📌 Prezentarea aplicației „ESP32-CAM Viewer cu IP-uri Locale”
