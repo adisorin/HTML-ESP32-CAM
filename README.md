@@ -8,6 +8,11 @@
 # Conectare
 <img width="854" height="892" alt="image" src="https://github.com/user-attachments/assets/89c5f543-09cc-4546-ae2e-3c63a0d863e0" />
 
+
+# ESP32-CAM AI Viewer
+
+<img width="763" height="881" alt="image" src="https://github.com/user-attachments/assets/1f69c288-d750-4158-8109-6c93f8c7dd69" />
+
 📌 Prezentarea aplicației „ESP32-CAM Viewer cu IP-uri Locale”
 Această aplicație web este o interfață creată pentru a vizualiza fluxul video (stream-ul) generat de un modul ESP32-CAM, atât din rețeaua locală, cât și din exterior (prin un domeniu DDNS, exemplu GO.RO). Pagina este proiectată astfel încât să ofere o navigare ușoară, feedback vizual clar și gestionare robustă a conexiunilor.
 
